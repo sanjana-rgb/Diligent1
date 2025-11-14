@@ -1,0 +1,36 @@
+Generate 5 synthetic e-commerce CSV datasets:
+
+1. customers.csv
+   - customer_id
+   - name
+   - email
+   - city
+   - signup_date
+
+2. products.csv
+   - product_id
+   - name
+   - category
+   - price
+
+3. orders.csv
+   - order_id
+   - customer_id (FK)
+   - order_date
+   - status
+
+4. order_items.csv
+   - item_id
+   - order_id (FK)
+   - product_id (FK)
+   - quantity
+   - total_price
+
+5. payments.csv
+   - payment_id
+   - order_id (FK)
+   - payment_date
+   - amount
+   - payment_method
+
+Generate realistic synthetic e-commerce data with valid foreign keys.

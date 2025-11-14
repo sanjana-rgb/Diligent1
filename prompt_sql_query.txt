@@ -1,0 +1,18 @@
+Write an SQL query that joins:
+
+- customers
+- orders
+- order_items
+- products
+- payments
+
+Output the following:
+
+- customer name
+- product name
+- quantity
+- order_date
+- payment_method
+- amount
+
+Sort results by order_date descending.

@@ -1,0 +1,13 @@
+Write Python code to:
+
+1. Create a SQLite database named ecom.db
+2. Create tables:
+   - customers
+   - products
+   - orders
+   - order_items
+   - payments
+
+3. Load the previously generated CSV files into the tables.
+
+4. Print "Ingestion Complete" at the end.
